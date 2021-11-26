@@ -1,0 +1,10 @@
+scipy
+numpy
+Pillow
+PyQt5
+os-sys
+opencv-python
+python-math
+pyglet
+matplotlib
+pytest-timeit
