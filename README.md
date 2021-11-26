@@ -17,7 +17,7 @@ You need to set this variable to the corresponding path where your data is saved
 # Project Description
 In this section the purpose of each component will be highlighted.
 ## LoadLF module
-This module is used to read the 4D light field. As the light field camera consists of an array of lenslets instead of a single lens it takes, in a single snapshot, multiple images from different angles.
+This module is used to read the 4D light field. As the light field camera consists of an array of lenslets instead of a single lens, it takes, in a single snapshot, multiple images from different angles.
 We choose for the parametrization of the light field, as described in [...], the intersection of the lines between two parallel planes, conventionally denoted with _(u,v)_ for the first plane and _(s,t)_ for the second.
 Therefore, with the indices _(u,v)_, one can access the lenslet of the light field and with the indices _(s,t)_ one can access an image behind a lenslet.
 
