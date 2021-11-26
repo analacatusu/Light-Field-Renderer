@@ -19,7 +19,7 @@ import cv2
 
 
 font = QtGui.QFont("Arial", 9)
-
+DATA_DIR = 'D:\intellij_workspace2\LFRenderer\\stanford'
 
 class Window(QWidget):
 
@@ -55,7 +55,7 @@ class Window(QWidget):
         self.count_max = 7
         self.semaphore = {"left_start": True, "up": False, "right": False, "down": False, "left_end": False}
 
-        self.parent_dir = 'D:\intellij_workspace2\LFRenderer\\stanford'
+        self.parent_dir = DATA_DIR
         self.path_chess = os.path.join(self.parent_dir, 'rectified_chess')
         self.path_lego = os.path.join(self.parent_dir, 'rectified_lego')
         self.path_ball = os.path.join(self.parent_dir, 'rectified_ball')

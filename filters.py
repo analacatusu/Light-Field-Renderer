@@ -2,6 +2,8 @@ from load_images import LoadLF
 import numpy as np
 import scipy.interpolate as sp
 from PIL import Image
+import os
+
 """ A class to apply the shift sum filter to a LF. 
     The shift sum filter focuses on a region of interest in the image,
     a so-called slope, whilst the rest is blurred out.
@@ -10,6 +12,7 @@ from PIL import Image
     Outputs: a filtered image/ filtered images
 """
 
+DATA_DIR = "D:\intellij_workspace2\LFRenderer\\stanford"
 
 class LFFilters:
 
@@ -80,7 +83,8 @@ class LFFilters:
 
 
 if __name__ == '__main__':
-    path = 'D:\intellij_workspace2\LFRenderer\\stanford\\rectified_lego'
+    path = os.path.join(DATA_DIR, "rectified_lego")
+    # path = 'D:\intellij_workspace2\LFRenderer\\stanford\\rectified_lego'
     images = LoadLF(path, new_directory="grey_scale_rectified_lego")
     slopes = [-0.45, 1.6]
     filters = LFFilters(images.lf_mat, slopes=slopes)

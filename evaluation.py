@@ -1,5 +1,9 @@
 import timeit
 
+""" This file is used for evaluation purposes.
+    It checks in how many seconds the renderer runs and applies the shift sum filter at different resolutions.
+"""
+
 setup256 = """\
 from PIL import Image
 from sys import exit
