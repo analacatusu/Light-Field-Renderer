@@ -11,8 +11,8 @@ Let's start with some installation guidelines that you need in order to run the 
 ```bash 
 pip3 install -r requirements.txt
 ```
-4. Each of the files contains either a variable named ``` DATA_DIR ``` or a variable named ``` path ```.
-Unless you saved the data directory directly inside the project, you need to set this variables to the corresponding path where your data is saved.
+4. Each of the files contains either a variable named ``` DATA_DIR ```.
+You need to set this variables to the corresponding path where your data is saved.
 
 # Project Description
 In this section the purpose of each component will be highlighted.
