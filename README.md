@@ -56,3 +56,12 @@ The second tab is used to illustrate the one shift sum filter applied at differe
 The two tabs of the GUI can be visualized here:
 
 ![GUI_tab1](assets/gui-tab1.png) ![GUI_tab2](assets/gui-tab2.png)
+
+# Dataset
+The input light fields were taken from [The (New) Stanford Light Field Archive](http://graphics.stanford.edu/data/LF/) and are stored as _.png_ 2D images. 
+We downloaded three example light fields from the archive on which we tested our renderer: 
+the chess sample (289 views on a _17 x 17_ grid, resolution: _1400 x 800_), 
+the lego knights sample (289 views on a _17 x 17_ grid, resolution: _1024 x 1024_) 
+and the crystal ball sample (289 views on a _17 x 17_ grid, resolution: _1024 x 1024_).
+We took the rectified and cropped images, but the original ones can also be used.
+
