@@ -2,7 +2,6 @@ scipy
 numpy
 Pillow
 PyQt5
-os-sys>=2.0.0
 opencv-python
 python-math
 pyglet
