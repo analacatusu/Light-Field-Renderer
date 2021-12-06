@@ -51,7 +51,7 @@ Here is an example of filtered image:
 ## LFGUI module
 This last module combines all the modules from above in a single Graphical User Interface that consists of two tabs.
 In the first tab one can upload and visualize various light fields in different ways. Additionally, one can also export GIFs of the light fields.
-The second tab is used to illustrate the one shift sum filter applied at different depths.
+The second tab is used to illustrate the shift sum filter applied at different depths.
 
 The two tabs of the GUI can be visualized here:
 
